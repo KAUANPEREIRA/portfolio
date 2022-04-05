@@ -126,6 +126,10 @@ img{
     section{
         margin-top: 6rem;
     }
+
+    .me{
+        margin-left: 200px;
+    }
     
 }
 
@@ -139,5 +143,26 @@ img{
     section>h2{
         margin-bottom: 2rem;
     }
+    .me{
+        margin-left: 37px;
+    }
     
 }
+
+
+
+/*
+.eu{
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left:calc(50%- 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+*/
