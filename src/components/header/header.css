@@ -56,7 +56,7 @@ overflow: hidden;
         
 }
 
-.scroll_down{
+.scroll__down{
     position: absolute;
     right: -2.3rem;
     bottom:5rem;
