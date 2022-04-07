@@ -5,8 +5,8 @@ import {BiCheck} from 'react-icons/bi'
 const Services = () => {
   return (
     <section id="services">
-      <h5>What I offer</h5>
-      <h2>Services</h2>
+      <h5>O que eu ofereço</h5>
+      <h2>Serviços</h2>
       <div className="container services__container">
         <article className='service'>
           <div className="service__head">
@@ -16,81 +16,37 @@ const Services = () => {
           <ul className='service__list'>
             <li>
             <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
+            <p>Combinação de cores</p>
             </li>
 
             <li>
             <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
+            <p>Interface e design</p>
             </li>
 
             <li>
             <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
+            <p>Usabilidade</p>
             </li>
 
             <li>
             <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
+            <p>Experiência do Usuário</p>
             </li>
 
             <li>
             <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
+            <p>Interação Humano computador</p>
             </li>
 
             <li>
             <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
+            <p>Facilidade de busca</p>
             </li>
 
             <li>
             <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
-            </li>
-
-          </ul>
-        </article>
-
-        <article className='service'>
-          <div className="service__head">
-            <h3>content creation</h3>
-          </div>
-
-          <ul className='service__list'>
-            <li>
-            <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
-            </li>
-
-            <li>
-            <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
-            </li>
-
-            <li>
-            <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
-            </li>
-
-            <li>
-            <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
-            </li>
-
-            <li>
-            <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
-            </li>
-
-            <li>
-            <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
-            </li>
-
-            <li>
-            <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
+            <p>Design agradavél e harmonioso</p>
             </li>
 
           </ul>
@@ -98,43 +54,87 @@ const Services = () => {
 
         <article className='service'>
           <div className="service__head">
-            <h3>WEB DEVELPOMENT</h3>
+            <h3>Habilidades</h3>
           </div>
 
           <ul className='service__list'>
             <li>
             <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
+            <p>Criação de conteudo</p>
             </li>
 
             <li>
             <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
+            <p>Sites responsivos</p>
             </li>
 
             <li>
             <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
+            <p>Metodologia Scrum</p>
             </li>
 
             <li>
             <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
+            <p>Desenvolvimento de Apis</p>
             </li>
 
             <li>
             <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
+            <p>Trabalho em equipe</p>
             </li>
 
             <li>
             <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
+            <p>Visão sistemica</p>
             </li>
 
             <li>
             <BiCheck className='sevice__list-icon'/>
-            <p>Lorem ipsum ,lorem ipsum ,lorem ipsum ,lorem ipsum</p>
+            <p>Produtividade</p>
+            </li>
+
+          </ul>
+        </article>
+
+        <article className='service'>
+          <div className="service__head">
+            <h3>Desenvolvimento/Skills</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+            <BiCheck className='sevice__list-icon'/>
+            <p>Logica de Programação</p>
+            </li>
+
+            <li>
+            <BiCheck className='sevice__list-icon'/>
+            <p>Capacidade Análitica</p>
+            </li>
+
+            <li>
+            <BiCheck className='sevice__list-icon'/>
+            <p>Boa comunicação</p>
+            </li>
+
+            <li>
+            <BiCheck className='sevice__list-icon'/>
+            <p>Gerenciamento do tempo</p>
+            </li>
+
+            <li>
+            <BiCheck className='sevice__list-icon'/>
+            <p>Criatividade</p>
+            </li>
+
+            <li>
+            <BiCheck className='sevice__list-icon'/>
+            <p>Desenvolvimento Fullstack</p>
+            </li>
+
+            <li>
+            <BiCheck className='sevice__list-icon'/>
+            <p>Empatia</p>
             </li>
 
           </ul>
