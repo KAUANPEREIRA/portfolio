@@ -6,7 +6,7 @@ import { useRef } from 'react';
 //import emailjs from '@emailjs/browser';
 
 const Contact =()=>{
-    /*
+    
     const form = useRef()
     const sendEmail = (e) => {
         e.preventDefault();
@@ -16,7 +16,7 @@ const Contact =()=>{
 
          e.target.reset()
       };
-    */
+    
     return(
         <section id="contact">
             <h5>Entrar em contato</h5>
@@ -39,7 +39,7 @@ const Contact =()=>{
                     </article>
 
                 </div>
-                <form /*</div>ref={form} onSubmit={sendEmail}*/>
+                <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name="name" placeholder="Seu nome" required/>
                     <input type="email" name="email" placeholder="Seu email" required/>
                     <textarea name="message" rows="7" placeholder="Sua mensagem" required></textarea>
