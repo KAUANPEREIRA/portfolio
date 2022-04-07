@@ -25,7 +25,7 @@ const Contact =()=>{
                         <MdOutlineMail className="contact__option-icon"/>
                         <h4>Email</h4>
                         <h5>kauanauan71@gmail.com</h5>
-                        <a href="mailto:kauanauan71@gmail.com">Enviar email</a>
+                        <a href="mailto:kauanauan71@gmail.com" target="_blank">Enviar email</a>
 
                     </article>
 
@@ -38,9 +38,9 @@ const Contact =()=>{
 
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" name="name" placeholder="Youl full name" required/>
-                    <input type="email" name="email" placeholder="Your seu email" required/>
-                    <textarea name="message" rows="7" placeholder="Your message" required></textarea>
+                    <input type="text" name="name" placeholder="Seu nome" required/>
+                    <input type="email" name="email" placeholder="Seu email" required/>
+                    <textarea name="message" rows="7" placeholder="Sua mensagem" required></textarea>
                     <button type="submit" className="btn btn-primary">Enviar email</button>
 
                 </form>

@@ -56,7 +56,7 @@ const About =()=>{
                      sistemas e sites de forma prática e eficiente para seu negócio, sempre se
                       aperfeiçoando através de estudos para um melhor trabalho...</p>
 
-                 <a href="#contact" className="btn btn-primary">Let´s talk</a>
+                 <a href="#contact" className="btn btn-primary">Vamos conversar</a>
 
                 </div>
             </div>
