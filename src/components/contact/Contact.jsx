@@ -7,7 +7,7 @@ import { useRef } from 'react';
 
 const Contact =()=>{
     
-    const form = useRef()
+    /*const form = useRef()
     const sendEmail = (e) => {
         e.preventDefault();
     
@@ -15,7 +15,7 @@ const Contact =()=>{
         '2v70NlIp3F9VMHwRd')
 
          e.target.reset()
-      };
+      };*/
     
     return(
         <section id="contact">
@@ -39,7 +39,7 @@ const Contact =()=>{
                     </article>
 
                 </div>
-                <form ref={form} onSubmit={sendEmail}>
+                <form /*</div>pref={form} onSubmit={sendEmail}*/>
                     <input type="text" name="name" placeholder="Seu nome" required/>
                     <input type="email" name="email" placeholder="Seu email" required/>
                     <textarea name="message" rows="7" placeholder="Sua mensagem" required></textarea>
