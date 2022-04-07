@@ -10,6 +10,15 @@ import Footer from './components/footer/Footer'
 
 
 const App = () => {
+
+  let sourceMapResolve = require('source-map-resolver');
+ 
+
+sourceMapResolve('./javascripts/application-2f037b638c.js.map', stacktraceString)
+  .then(resolvedStack => {
+    
+
+  });
   return (
     <> 
       <Header/>
