@@ -45,7 +45,7 @@ const Portfolio = () => {
             <h3>Lista de Tarefas com Reactjs</h3>
             <div className="portfolio__item-cta">
               <a href='https://github.com/KAUANPEREIRA/todo' className='btn' target="_blank">Github</a>
-              <a href='https://github.com/KAUANPEREIRA/todo' className='btn btn-primary' target="_blank">Live demo</a>
+              <a href='https://todo-lovat-gamma.vercel.app/' className='btn btn-primary' target="_blank">Live demo</a>
             </div>
         </article>
 
